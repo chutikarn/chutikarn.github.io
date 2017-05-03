@@ -29,15 +29,7 @@ body{
 	text-decoration: none;
 	font-size: 2em;
 }
-#logo:hover {
-	cursor: crosshair;
-	transition: 0.5s;
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	opacity: 0.4;
-	
-}
+
 
 a:link, a:visited {
     background-color: none;
@@ -77,7 +69,7 @@ a:link, a:visited {
 
  #explore-button{
 	float: right;
-	margin-top: -4%;
+	margin-top: 3%;
 	color: black;
 	font-size: 1em;
 	border-radius: 5px;
@@ -126,16 +118,16 @@ a:link, a:visited {
 	
 }
 
+{/*3 methods*/}
 
-
- .method{
+ #boil-button{
  	color: white;
  	opacity: 0.8;
  	font-weight: 200px;
 
 }
 
-.method:hover {
+#boil-button:hover {
 	cursor: crosshair;
 	transition: 0.5s;
 	-webkit-transition: 0.3s;
@@ -144,6 +136,70 @@ a:link, a:visited {
 	opacity: 0.4;
 	
 }
+
+#poach-button{
+ 	color: white;
+ 	opacity: 0.8;
+ 	font-weight: 200px;
+
+}
+
+#poach-button:hover {
+	cursor: crosshair;
+	transition: 0.5s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	opacity: 0.4;
+	
+}
+
+#fry-button{
+ 	color: white;
+ 	opacity: 0.8;
+ 	font-weight: 200px;
+
+}
+
+#fry-button:hover {
+	cursor: crosshair;
+	transition: 0.5s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	opacity: 0.4;
+	
+}
+
+
+{/*softboil*/}
+
+#container2{
+	color: #EFB33C;
+	font-size: 1em;
+	font-weight: 100;
+	position: fixed;
+	width: 60%;
+	height: 65%;
+	background: white;	
+	border-radius: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transition: 0.3s;
+	padding: 5% 5% 5% 5%;
+	text-align: left;
+	
+ }
+
+
+ 
+
+
 
 
 
