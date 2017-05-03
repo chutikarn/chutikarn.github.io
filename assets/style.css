@@ -16,6 +16,16 @@ body{
     z-index:100;
 }
 
+.footer{
+	background-color: none;
+	padding: 30px;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    opacity: .8;
+}
+
 
 
 
@@ -193,6 +203,7 @@ a:link, a:visited {
 	transition: 0.3s;
 	padding: 5% 5% 5% 5%;
 	text-align: left;
+	box-shadow: 5px 5px 5px #D1D0CF;
 	
  }
 
