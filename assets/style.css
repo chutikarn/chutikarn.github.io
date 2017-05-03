@@ -25,21 +25,35 @@ a:link, a:visited {
 }
 
 
-a:hover, a:active {
+/*a:hover, a:active {
     color: black;
 
+}*/
+
+.exploreactive {
+	color: black;
 }
 
 
 
 											{/*explore button*/}
-#explore-button{
+.box{
+ 	z-index: 101;
+ 	position: absolute;
+ 	display: none;
+ }
+
+ .showbox {
+ 	display: inline;
+ }
+
+
+
+ #explore-button{
 	float: right;
-	margin-top: 10px;
-	margin-right: 10px;
-	color: white;
-	font-size: 0.7em;
-	color: white;
+	margin-top: -4%;
+	color: black;
+	font-size: 1em;
 	border-radius: 5px;
 	background-color: #F7D18F;
 	
@@ -48,6 +62,7 @@ a:hover, a:active {
 
 
  #explore-content{
+
 	color: #EFB33C;
 	font-size: 1.5em;
 	position: fixed;
@@ -68,17 +83,28 @@ a:hover, a:active {
 	
  }
 
- #exit{
- 	position: absolute;
- 	right: 20%;
- 	left: 80%;
- 	top: 15%;
- 	max-height: 100%;
- 	max-width: 100%;
- 	padding:5px;
- 	max-height: 2%;
- 	max-width: 2%;
+#exit{
+	max-width: 20px;
+	max-height: 20px;
+	top: 100%;
+}
+
+
+#exit:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	opacity: 0.4;
 	
+}
+
+
+
+ .method{
+ 	color: white;
+
  }
 
 

@@ -6,38 +6,55 @@
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+
+	<script src="assets/script.js"></script>
 	
 	<img src="assets/img/landingpage.png" id="bg" alt="">
 </head>															
 <body>
 
 
+
 											<!--home button//logo!-->
-<div class="homepage">
+<div class="homepage"> 
+
 	<div class="button">
 
 		<div id="logo">
 		<a href="index.html">eggveryday.</a>
-		
-		<div id="explore-button">
-		<a href="#explore">explore</a>
 		</div>
 
+		<div id="explore-button">
+		<a href="#" id="activator">explore</a>
 		</div>
+
+
+	</div>
 
 
 
 <!--Explore-->
-		
-		<div id="container1">
+				
+		<div class="box"> 
 
 					<div id="explore-content">3 egg-citing ways to cook eggs
+					<div class="method">
+						<img src="assets/img/boil.png"><br>
+						<img src="assets/img/boil.png"><br>
+						<img src="assets/img/boil.png"><br>
+
 					</div>
 
+					</div>
+
+
+
 					
-					<img id="exit" src="assets/img/exit.png">
+					<img id="exit" class="exit" src="assets/img/exit.png">
 		</div>
-		
+
+		<div class="overlay" id="overlay" style="display:none;"></div>
 		
 	</div>
 </div>
