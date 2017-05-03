@@ -7,13 +7,10 @@ body{
 
 											{/*home button*/}
 #logo{
-	
-	
+	margin-left: 30px
 	border: transparent;
 	text-decoration: none;
 	font-size: 2em;
-
-
 }
 
 a:link, a:visited {
@@ -33,11 +30,71 @@ a:hover, a:active {
 
 }
 
-											{/*explore button*/}
-#explore{
-	float: right;
 
+
+											{/*explore button*/}
+#explore-button{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: white;
+	font-size: 0.7em;
+	color: white;
+	border-radius: 5px;
+	background-color: #F7D18F;
+	
 }
+								{/*explore content*/}
+
+
+ #explore-content{
+	color: #EFB33C;
+	font-size: 1.5em;
+	position: fixed;
+	width: 60%;
+	height: 65%;
+	background: black;	
+	border-radius: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transition: 1s;
+	padding: 5% 5% 5% 5%;
+	text-align: center;
+	
+ }
+
+ #exit{
+ 	position: absolute;
+ 	right: 20%;
+ 	left: 80%;
+ 	top: 15%;
+ 	max-height: 100%;
+ 	max-width: 100%;
+ 	padding:5px;
+ 	max-height: 2%;
+ 	max-width: 2%;
+	
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 											{/*background*/}
 
