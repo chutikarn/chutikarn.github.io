@@ -21,6 +21,8 @@ body{
 
 
 											{/*home button*/}
+
+
 #logo{
 	margin-left: 30px
 	border: transparent;
@@ -101,7 +103,7 @@ a:link, a:visited {
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-o-transform: translateX(-50%) translateY(-50%);
-	transition: 1s;
+	transition: 0.3s;
 	padding: 5% 5% 5% 5%;
 	text-align: center;
 	
